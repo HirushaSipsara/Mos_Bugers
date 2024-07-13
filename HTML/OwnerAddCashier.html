@@ -21,7 +21,7 @@
 <div class="subheader">
     <div class="container-fluid p-2 justify-content-center">
         <div class="d-flex align-items-center">
-            <h1 class="text-black fs-3 col-6 ps-2">Add Customers</h1>
+            <h1 class="text-black fs-3 col-6 ps-2">Add Cashier</h1>
         </div>
     </div>
 </div>
@@ -31,47 +31,47 @@
         <div class="col-11 my-3 p-4 rounded-5 content-background shadow-lg">
             <div class="row mb-3">
                 <div class="col-lg-3 col-md-3 col-sm-12 d-sm-flex justify-content-sm-start justify-content-md-center justify-content-lg-center">
-                    <label for="CustID" class="h4">Customer iD </label>
+                    <label for="CustID" class="h4">Cashier iD </label>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12">
-                    <input type="text" id="CustID" placeholder="Customer ID" class="form-control rounded-3">
+                    <input type="text" id="CustID" placeholder="Cashier ID" class="form-control rounded-3">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-lg-3 col-md-3 col-sm-12 d-sm-flex justify-content-sm-start justify-content-md-center justify-content-lg-center ">
-                    <label for="CustName" class="h4">Customer Name </label>
+                    <label for="CustName" class="h4">Cashier Name </label>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12">
-                    <input type="text" id="CustName" placeholder="Customer Name" class="form-control rounded-3">
+                    <input type="text" id="CustName" placeholder="Cashier Name" class="form-control rounded-3">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-lg-3 col-md-3 col-sm-12 d-sm-flex justify-content-sm-start justify-content-md-center justify-content-lg-center ">
-                    <label for="CustTelephone" class="h4">Customer Telephone </label>
+                    <label for="CustTelephone" class="h4">Cashier Telephone </label>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12">
-                    <input type="text" id="CustTelephone" placeholder="Customer Telephone" class="form-control rounded-3">
+                    <input type="text" id="CustTelephone" placeholder="Cashier Telephone" class="form-control rounded-3">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-lg-3 col-md-3 col-sm-12 d-sm-flex justify-content-sm-start justify-content-md-center justify-content-lg-center ">
-                    <label for="CustBday" class="h4">Customer Birthday </label>
+                    <label for="CustBday" class="h4">Cashier Birthday </label>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12">
-                    <input type="date" id="CustBday" placeholder="Customer Birthday" class="form-control rounded-3">
+                    <input type="date" id="CustBday" placeholder="Cashier Birthday" class="form-control rounded-3">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-lg-3 col-md-3 col-sm-12 d-sm-flex justify-content-sm-start justify-content-md-center justify-content-lg-center ">
-                    <label for="CustEmail" class="h4">Customer Email </label>
+                    <label for="CustEmail" class="h4">Cashier Email </label>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12">
-                    <input type="email" id="CustEmail" placeholder="Customer Email" class="form-control rounded-3">
+                    <input type="email" id="CustEmail" placeholder="Cashier Email" class="form-control rounded-3">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-lg-3 col-md-3 col-sm-12 d-sm-flex justify-content-sm-start justify-content-md-center justify-content-lg-center">
-                    <label for="CustAddress" class="h4">Customer Address </label>
+                    <label for="CustAddress" class="h4">Cashier Address </label>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12">
                     <textarea name="" id="" class="form-control"></textarea>
@@ -80,6 +80,37 @@
         </div>
     </div>
 </div>
+
+<div class="container-fluid">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-11 my-3 p-4 rounded-5 content-background shadow-lg pb-5">
+            <div class="row">
+                <div class="container">
+                    <div class="text-center">
+                        <h1 style="font-style: italic; text-decoration: underline;" class="text-black fs-5">Login Details</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-lg-3 col-md-3 col-sm-12 d-sm-flex justify-content-sm-start justify-content-md-center justify-content-lg-center">
+                    <label for="CustID" class="h4">Login Username</label>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <input type="text" id="CustID" placeholder="Username" class="form-control rounded-3">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-lg-3 col-md-3 col-sm-12 d-sm-flex justify-content-sm-start justify-content-md-center justify-content-lg-center ">
+                    <label for="CustName" class="h4">Login Password</label>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <input type="text" id="CustName" placeholder="Password" class="form-control rounded-3">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container-fluid ps-5 d-flex btn-align">
     <button class="text-white me-2 p-2 button-color border-0 rounded-3 d-none d-sm-none d-md-none d-lg-block fs-6 shadow-lg" style="width: 250px;" onclick="cashierhomepage()">Back</button>
     <button class="text-white me-2 p-2 button-color border-0 rounded-3 d-none d-sm-none d-md-block d-lg-none fs-6 shadow-lg" style="width: 150px;" onclick="cashierhomepage()">Back</button>
