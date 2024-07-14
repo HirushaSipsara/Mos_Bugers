@@ -3,10 +3,10 @@ function loginform() {
     let password = document.getElementById("password").value;
 
     if (username === "Admin" && password === "Admin@123") {
-        window.location.href ='../HTML/OwnerHomePage.html';
+        window.location.href ='../OwnerHomePage.html';
 
     } else if (username === "Cashier" && password === "Cashier@123") {
-        window.location.href = '../HTML/CashierHomePage.html';
+        window.location.href = '../CashierHomePage.html';
     } else {
         alert("Wrong login");
     }
@@ -21,85 +21,85 @@ function goback() {
 }
 
 function vieworderpage(){
-    window.location.href = '../HTML/CashierViewOrder.html'
+    window.location.href = '../CashierViewOrder.html'
 }
 
 function addcustomerpage(){
-    window.location.href = '../HTML/CashierAddCustomer.html'
+    window.location.href = '../CashierAddCustomer.html'
 }
 
 function viewcustomerpage(){
-    window.location.href = '../HTML/CashierViewCustomers.html'
+    window.location.href = '../CashierViewCustomers.html'
 }
 
 //Cashier Main Buttons
 
 function cashierplaceorderpage(){
-    window.location.href = '../HTML/cashierplaceorder.html'
+    window.location.href = '../cashierplaceorder.html'
 }
 function cashierviewmenupage(){
-    window.location.href = '../HTML/CashierViewMenu.html'
+    window.location.href = '../CashierViewMenu.html'
 }
 
 //Cashier Sub Buttons
 
 function cashierordercheckoutpage(){
-    window.location.href = '../HTML/CashierCheackOut.html'
+    window.location.href = '../CashierCheackOut.html'
 }
 
 function cashierordercheckoutpage(){
-    window.location.href = '../HTML/CashierCheackOut.html'
+    window.location.href = '../CashierCheackOut.html'
 }
 
 function cashierupdateorderpage(){
-    window.location.href = '../HTML/CashierUpdateOrder.html'
+    window.location.href = '../CashierUpdateOrder.html'
 }
 
 function cashierdeleteorderpage(){
-    window.location.href = '../HTML/CashierDeleteOrder.html'
+    window.location.href = '../CashierDeleteOrder.html'
 }
 
 function cashierupdatecustomerpage(){
-    window.location.href = '../HTML/CashierUpdateCustomer.html'
+    window.location.href = '../CashierUpdateCustomer.html'
 }
 
 //Owner Main Buttons
 
 function ownermanageinventory(){
-    window.location.href = '../HTML/OwnerManageInventory.html'
+    window.location.href = '../OwnerManageInventory.html'
 }
 
 function ownergenatereport(){
-    window.location.href = '../HTML/OwnerGenarateReport.html'
+    window.location.href = '../OwnerGenarateReport.html'
 }
 
 function owneraddcashiers(){
-    window.location.href = '../HTML/OwnerAddCashier.html'
+    window.location.href = '../OwnerAddCashier.html'
 }
 
 function ownerviewcashiers(){
-    window.location.href = '../HTML/OwnerViewCashiers.html'
+    window.location.href = '../OwnerViewCashiers.html'
 }
 
 //Owner Sub Buttons
 
 function ownerviewinventory(){
-    window.location.href = '../HTML/OwnerViewInventory.html'
+    window.location.href = '../OwnerViewInventory.html'
 }
 
 function owneradditem(){
-    window.location.href = '../HTML/OwnerAddInventory.html'
+    window.location.href = '../OwnerAddInventory.html'
 }
 
 function ownerupdateitem(){
-    window.location.href = '../HTML/OwnerUpdateInventory.html'
+    window.location.href = '../OwnerUpdateInventory.html'
 }
 
 function ownerdeleteitem(){
-    window.location.href = '../HTML/OwnerDeleteInventory.html'
+    window.location.href = '../OwnerDeleteInventory.html'
 }
 
 function ownerupdatecashierpage(){
-    window.location.href = '../HTML/OwnerCashierUpdate.html'
+    window.location.href = '../OwnerCashierUpdate.html'
 }
 
