@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Concert+One&display=swap');
 
 
 
 .font {
-    font-family: "Cinzel", serif;
-    font-optical-sizing: auto;
+    font-family: "Concert One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
