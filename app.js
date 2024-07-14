@@ -1,6 +1,32 @@
-function loginform() {
-    let username = document.getElementById("username").value;
-    let password = document.getElementById("password").value;
+function loginform1() {
+    let username = document.getElementById("username1").value;
+    let password = document.getElementById("password1").value;
+
+    if (username === "Admin" && password === "Admin123") {
+        window.location.href ='./OwnerHomePage.html';
+
+    } else if (username === "Cashier" && password === "Cashier123") {
+        window.location.href = './CashierHomePage.html';
+    } else {
+        alert("Wrong login");
+    }
+}
+function loginform2() {
+    let username = document.getElementById("username2").value;
+    let password = document.getElementById("password2").value;
+
+    if (username === "Admin" && password === "Admin123") {
+        window.location.href ='./OwnerHomePage.html';
+
+    } else if (username === "Cashier" && password === "Cashier123") {
+        window.location.href = './CashierHomePage.html';
+    } else {
+        alert("Wrong login");
+    }
+}
+function loginform3() {
+    let username = document.getElementById("username3").value;
+    let password = document.getElementById("password3").value;
 
     if (username === "Admin" && password === "Admin123") {
         window.location.href ='./OwnerHomePage.html';
