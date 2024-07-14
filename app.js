@@ -2,10 +2,10 @@ function loginform() {
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
 
-    if (username === "Admin" && password === "Admin@123") {
+    if (username === "Admin" && password === "Admin123") {
         window.location.href ='./OwnerHomePage.html';
 
-    } else if (username === "Cashier" && password === "Cashier@123") {
+    } else if (username === "Cashier" && password === "Cashier123") {
         window.location.href = './CashierHomePage.html';
     } else {
         alert("Wrong login");
