@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cinzel:wght@400..900&family=Concert+One&display=swap');
 
 
 
 .font{
-    font-family: "Concert One", sans-serif;
+    font-family: "Black Ops One", system-ui;
     font-weight: 400;
     font-style: normal;
 }
