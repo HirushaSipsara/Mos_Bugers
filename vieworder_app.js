@@ -75,15 +75,6 @@ window.onload = function viewitem(){
             </tr>
                 `
         }
-        viewinventory+=`
-            <tr>
-                <td>${data.Itid}</td>
-                <td>${data.Itname}</td>
-                <td>${data.Itprice}</td>
-            </tr>
-                `
-       
-
     });
 
     
